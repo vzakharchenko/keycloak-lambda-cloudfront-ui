@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/vzakharchenko/keycloak-lambda-cloudfront-ui.svg?style=svg)](https://circleci.com/gh/vzakharchenko/keycloak-lambda-cloudfront-ui)
 # Integration cloudfront ui with keycloak-lambda-authorizer
 
 # installation
