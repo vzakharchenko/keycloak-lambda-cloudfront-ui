@@ -1,0 +1,18 @@
+version: 2 # use CircleCI 2.0
+jobs:
+  build:
+    working_directory: ~/keycloak-lambda-cloudfront-ui # directory where steps will run
+
+    docker: # run the steps with Docker
+      - image: circleci/node:12.16.1 # ...with this image as the primary container; this is where all `steps` will run
+
+    steps: # a collection of executable commands
+
+      - checkout # check out source code to working directory
+
+      - run:
+          name: build source
+          command: npm i
+      - run:
+          name: lint
+          command: npm run lint

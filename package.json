@@ -1,0 +1,49 @@
+{
+  "name": "keycloak-lambda-cloudfront-ui",
+  "version": "0.1.4",
+  "description": "Integration cloudfront ui with keycloak-lambda-authorizer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --quiet --ext .js index.js",
+    "lint:fix": "eslint --fix --quiet --ext .js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzakharchenko/keycloak-lambda-cloudfront-ui.git"
+  },
+  "keywords": [
+    "keycloak",
+    "cloudfront",
+    "lambda:edge",
+    "keycloak-lambda-authorizer"
+  ],
+  "eslintConfig": {
+    "plugins": [],
+    "extends": "airbnb/base",
+    "rules": {
+      "no-undef": 0,
+      "import/extensions": 0,
+      "import/prefer-default-export": 0,
+      "import/no-extraneous-dependencies": 0,
+      "react/jsx-indent": 0
+    }
+  },
+  "author": "vzakharchenko",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vzakharchenko/keycloak-lambda-cloudfront-ui/issues"
+  },
+  "homepage": "https://github.com/vzakharchenko/keycloak-lambda-cloudfront-ui#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
