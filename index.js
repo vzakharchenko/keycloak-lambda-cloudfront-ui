@@ -10,7 +10,7 @@ export function getTenantCookieValue(cookieName) {
   return Cookies.get(cookieName);
 }
 
-function getDecodedSession() {
+export function getDecodedSession() {
   const sessionValue = getSessionValue();
   if (sessionValue) {
     return jwt.decode(sessionValue);
