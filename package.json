@@ -1,6 +1,6 @@
 {
   "name": "keycloak-lambda-cloudfront-ui",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Integration cloudfront ui with keycloak-lambda-authorizer",
   "main": "index.js",
   "scripts": {

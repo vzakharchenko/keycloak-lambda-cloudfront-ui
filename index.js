@@ -38,6 +38,7 @@ export function getTenants() {
       retTenants.push({
         realm: tenant,
         resource,
+        resourceSession: tenants[tenant][resource],
       });
     });
   });
